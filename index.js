@@ -354,6 +354,19 @@ function somarSubVetores(vetor){
     return resultado;
 }
 
+//Crie uma função chamada testeFinal que:
+//Receberá uma string e um número como parâmetros
+//Testará se a String é igual as seguintes palavras e executará um código para o descrito em cada caso.
+//1- "mundojs":Exibirá "MundoJS" no console e retornará o parametro número.
+//2- "soma":Retornará o resultado da soma da metade do parâmetro número com o quadrado dele mesmo.
+//3- "vetor":Criará e retornará um vetor com 5 elementos onde cada elemento é igual ao parâmetro número mais o dobro do índice do vetor:
+//Ex: número = 3
+//Primeiro item igual a 3+0*2
+//Segundo item igual a 3+1*2
+//Assim por diante...Retornará [3,5,7,9,11]
+//4- "booleano":Faça o mesmo vetor anterior e retorne true(o valor booleano, não uma string) se a soma dos elementos deste vetor for maior que 35, do contrario, exibe false.
+//Caso o parâmetro String seja diferente das opções acima, retornará -1.
+
 function testeFinal(string, numero){
 
     if(string == "mundojs"){
